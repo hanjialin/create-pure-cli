@@ -1,0 +1,28 @@
+{
+  "name": "create-pure-cli",
+  "version": "1.0.0",
+  "repository": "https://github.com/hanjialin/create-pure-cli.git",
+  "author": "hanjialin <hanjialin1991@hotmail.com>",
+  "license": "Apache License",
+  "description": "A pure Vue 3 scaffolding construction project is used to download the corresponding scaffolding via the command line.",
+  "private": false,
+  "engines": {
+    "node": ">=18 <22"
+  },
+  "bin": {
+    "create-pure-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue3",
+    "naive-ui-cli",
+    "vant-cli",
+    "cli"
+  ],
+  "dependencies": {
+    "commander": "^13.1.0",
+    "inquirer": "^12.5.2"
+  }
+}

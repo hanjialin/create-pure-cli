@@ -1,10 +1,13 @@
 #!/usr/bin/env node
-const { program } = require('commander');
-const { exec } = require('child_process');
-const path = require('path');
-const fs = require('fs');
-const inquirer = require('inquirer');
+import {program} from "commander";
 
+import {exec} from "child_process";
+
+import path from "path";
+
+import fs from "fs";
+
+import inquirer from "inquirer";
 //定义版本信息
 program.version('1.0.0', '-v, --version');
 //定义模板选项

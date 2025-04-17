@@ -9,6 +9,7 @@
   "engines": {
     "node": ">=18 <22"
   },
+  "type": "module",
   "bin": {
     "create-pure-cli": "./index.js"
   },
